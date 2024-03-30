@@ -1,0 +1,133 @@
+.chatbox {
+  border: 2px solid purple;
+  border-radius: 20px;
+  margin: 1px 0;
+  padding: 8px;
+  font-size: 30px;
+  background-color: white;
+}
+.chatbox .name2 {
+  color: black;
+  font-size: 25px;
+  border: none;
+  margin-bottom: -18%;
+}
+.container {
+  display: flex;
+}
+.me .chatbox {
+  background-color: white;
+  color: purple;
+}
+.container.me {
+  flex-direction: row-reverse;
+}
+.btm {
+  position: fixed;
+  width: 100%;
+  bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.btm input {
+  padding: 20px 0;
+  flex-grow: 1;
+}
+.chat-container {
+  height: 75vh;
+  overflow-y: scroll;
+  border: 1px solid black;
+  background-color: purple;
+}
+.btm button {
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 23px;
+  font-size: 15px;
+  padding: 25px;
+}
+.btm button:hover {
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+}
+
+.input1 {
+  border-radius: 23px;
+  padding: 15px;
+
+  font-size: 2rem;
+  margin-left: 15%;
+}
+.btm22 {
+  background-color: white;
+  border: 2px solid purple;
+  border-radius: 23px;
+  padding: 10px;
+  margin-top: 4%;
+  margin-left: 45%;
+}
+.btm22:hover {
+  background-color: purple;
+  color: white;
+}
+.pt1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  color: purple;
+}
+.middle {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+.top h1 {
+  font-size: 80px;
+  margin-left: 20%;
+}
+.top h2 {
+  margin-left: 35%;
+}
+.top {
+  border: 9px solid purple;
+  border-radius: 23px;
+  margin-top: 1%;
+  width: 80%;
+  margin-left: 10%;
+  height: 600px;
+}
+.main-inp {
+  background-color: white;
+  color: purple;
+  border-radius: 23px;
+  font-size: 30px;
+
+  padding: 20px;
+  display: flex;
+}
+.main-inp::placeholder {
+  padding: 20px;
+  padding-left: 15px;
+  width: 80%;
+}
+
+.top2 h1 {
+  color: black;
+  border: 2px solid purple;
+  border-radius: 23px;
+  width: 20%;
+  padding: 5px;
+}
+
+@media only screen and(max-width:412) {
+  .top {
+    background-color: red;
+  }
+  .top h1 {
+    font-size: 10px;
+  }
+}
